@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zen</title>
+
+    <!-- jQuery -->
+    <script src="{{ url_for('static', filename='js/jquery-2.2.4.min.js') }}"></script>
+
+    <!-- React -->
+    <script src="{{ url_for('static', filename='js/react.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/react-dom.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+  </head>
+  <body>
+    <div id="container"></div>
+    <script src="{{ url_for('static', filename='jsx/index.jsx') }}" type="text/babel"></script>
+  </body>
+</html>
